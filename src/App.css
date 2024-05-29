@@ -1,0 +1,32 @@
+.hContent{
+    display: flex;
+    min-height: 80px;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color:#f5f5f5;
+    align-items: center;
+}
+
+.hContent img.logo{
+   width: 70px;
+   height: auto;
+}
+.hContent .user img{
+    max-width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 3px solid #ccc;
+}
+.hContent .user{
+    position: relative;
+}
+.hContent .user span::after{
+    content: '';
+    background-color: #62ff00;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    bottom: 10px;
+    right: 5px;
+    border-radius: 50%;
+}
